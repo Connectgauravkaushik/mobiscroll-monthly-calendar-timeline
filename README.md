@@ -27,15 +27,22 @@ This is a web application built using **Vite.js**, **React**, **Tailwind CSS**, 
 
 
 
+### To check if you have Node.js and npm installed, run the following in your terminal:
+
+```bash
+node -v
+npm -v
+
+### 1. Clone the Repository
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
 
 
+### 2. Install Dependencies
+npm install
 
-
-
-
-
-
-
+### 3. Run the Project Locally
+npm run dev
 
 
 
