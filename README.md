@@ -20,7 +20,6 @@ This web application is built using **Vite.js**, **React**, **Tailwind CSS**, an
 - Delete event functionality with an alert popup.
 
 ## Project instructions: 
-<<<<<<< HEAD
 
 #### In the components folder , there are majorly three jsx file are created :
 - Header Component -> This is the main component where you will find all the logic along some UI part.
