@@ -26,8 +26,6 @@ This web application is built using **Vite.js**, **React**, **Tailwind CSS**, an
 - Header Component -> This is the main component where you will find all the logic along some UI part.
 - Delete Component -> you can see the delete modal component , when you click on any created event it will pop up the modal at the center of the page.
 - Calender Component -> you can see the calender code.
-=======
->>>>>>> 7af2a9f82135b989d3cd6fa5e28cb929b5d656c8
 
 #### In the components folder, there are majorly three jsx files are created :
 - Header Component -> This is the main component where you will find all the logic along some UI parts.
