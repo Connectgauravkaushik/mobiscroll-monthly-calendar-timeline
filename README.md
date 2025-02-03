@@ -25,6 +25,12 @@ This is a web application built using **Vite.js**, **React**, **Tailwind CSS**, 
 - Functionality to move the calendar to the previous or next month.
 - Delete event functionality with an alert popup.
 
+## Project instructions: 
+
+#### In the components folder , there are majorly three jsx file are created :
+- Header Component -> This is the main component where you will find all the logic along some UI part.
+- Delete Component -> you can see the delete modal component , when you click on any created event it will pop up the modal at the center of the page.
+- Calender Component -> you can see the calender code.
 
 
 ### To check if you have Node.js and npm installed, run the following in your terminal:
