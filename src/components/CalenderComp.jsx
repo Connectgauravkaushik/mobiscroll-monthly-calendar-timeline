@@ -1,9 +1,6 @@
-import { useContext, useEffect } from "react";
 import { useState } from "react";
-import MyContext from "../utils/Myprovider";
 
 const Calendar = () => {
-  const { data, setData } = useContext(MyContext);
 
   // State to store the current date
   const [currentDate, setCurrentDate] = useState(new Date());
@@ -23,7 +20,7 @@ const Calendar = () => {
   // Function to go to the next month
   const goToNextMonth = () => {
     setCurrentDate(new Date(year, month + 1));
-    setData({ monthName: monthName, year: year, daysInMonth: daysInMonth });
+ 
     console.log(monthName);
   };
 
@@ -49,18 +46,6 @@ const Calendar = () => {
     return days;
   };
 
-  // Handle click on a specific day
-  const handleDayClick = (day) => {
-    setData({
-      currentDay: day,
-      daysInMonth: daysInMonth,
-      monthName: monthName,
-    });
-  };
-
-  useEffect(() => {
-    console.log(data);
-  }, [data]);
 
   return (
     <div className="flex mt-18 absolute z-30 top-0">
@@ -102,7 +87,7 @@ const Calendar = () => {
                     : "bg-gray-100 text-gray-700"
                   : "bg-transparent text-transparent"
               } hover:bg-gray-200 rounded cursor-pointer`}
-              onClick={() => day && handleDayClick(day)} // Only handle click if day exists
+               // Only handle click if day exists
             >
               {day ? day : ""}
             </div>

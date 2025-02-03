@@ -1,11 +1,8 @@
 import { useState, useEffect, useCallback } from "react";
 import Calendar from "./CalenderComp";
-// import { useContext } from "react";
-// import MyContext from "../utils/Myprovider";
 import DeleteModal from "./DeleteComp";
 
 const HeaderComp = () => {
-  // const { data } = useContext(MyContext);
   const [currentDate, setCurrentDate] = useState(new Date());
   const [updatedDate, setupdatedDate] = useState(false);
   const [daysInMonth, setDaysInMonth] = useState(28);
